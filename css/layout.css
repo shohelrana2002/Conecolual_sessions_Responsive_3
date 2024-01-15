@@ -1,0 +1,45 @@
+.container {
+  border: 2px solid orange;
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  color: tomato;
+}
+
+.box-1 {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 4;
+  background-color: blue;
+}
+
+.box-2 {
+  grid-column: 4 / span 9;
+  grid-row: 1 / span 1;
+  background-color: rgb(255, 0, 0);
+}
+.box-3 {
+  grid-column: 4 / span 3;
+  grid-row: 2 / span 2;
+  background-color: rgba(0, 0, 255, 0.175);
+}
+.box-4 {
+  grid-column: 7 / span 3;
+  grid-row: 2 / span 2;
+  background-color: rgba(64, 255, 0, 0.175);
+}
+.box-5 {
+  grid-column: 10 / span 3;
+  grid-row: 2 / span 1;
+  background-color: yellowgreen;
+}
+.box-6 {
+  grid-column: 10 / span 3;
+  grid-row: 3 / span 1;
+  background-color: orangered;
+}
+.box-6 {
+  grid-column: 4 / span 9;
+  grid-row: 4 / span 1;
+  background-color: orangered;
+}
